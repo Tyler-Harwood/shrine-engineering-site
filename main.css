@@ -8,13 +8,27 @@ html, body{
 }
 
 #titleImage {
-	margin: 20px;
-	width:100%;
-	position:relative;
+	z-index:1;
 }
 
 #title {
+	margin: 20px;
+	position:absolute;
+	width:100%;
+}
+
+ #titleEmoji {
+  display: block;
+  position: absolute; 
+	top: 72%;
+    left: 38%;
+    width: 23%;
+  z-index: 1;
+}
+
+#titleColumn {
 	background-color:white; 
+	position:relative;
 	float:left;
 	width:33%;
 	height:100%;
