@@ -9,7 +9,7 @@
 				<div id="title">
 					<!--<pre>shrine<br>engineering<br>/   \<br>/ 🐄  \<br>/       \</pre>-->
 					<img id="titleImage" src="shrineEngineeringTitle.svg" alt="Nice green circle"/> 
-					<img id="titleEmoji" src="1f404.svg"/>
+					<!--<img id="titleEmoji" src="1f404.svg"/>-->
 				</div>
 			</div>
 			<div id="city">
@@ -303,4 +303,14 @@
 		</div>
 	</body>
 	<link rel="stylesheet" typer="text/css" href="main.css"/>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+
+	<!--New images on load -->
+	<script>
+	//Add your images, we'll set the path in the next step
+	    var images = ['1f404.svg', '1f31d.svg','1f31e.svg','1f404.svg','1f40b.svg','1f68c.svg','1f69b.svg','1f6b4.svg'];
+	    
+	//Build the img, then do a bit of maths to randomize load and append to a div. Add a touch off css to fade them badboys in all sexy like.
+	    $('<img id="titleEmoji" src=' + images[Math.floor(Math.random() * images.length)] + '>').appendTo('#title');
+	</script>
 </html>
