@@ -10,74 +10,85 @@ html, body{
 pre {
 	margin:0;
 }
+#textBubbleImage {
+width: 23%;
+    top: 70%;
+    left: 26%;
+    position: absolute;
+    color: #302c24;
+}
 
 #titleImage {
+	margin: 15px
 }
+#billboardImage1 {
+    color: #302c24;
+		 top: 1%;
+    height: 100%;
+    left: 12%;
+    position: absolute;
+ }
 
 #controllerImage {
 	width: 100%;	
+	bottom: 0%;
+	position: absolute;
 }
 
 #title {
 	margin: 15px;
 	position:absolute;
-	width:100%;
+	width:103%;
 }
 
  #titleEmoji {
 	display: block;
 	position: absolute; 
-	top: 35%;
+	top:59%;
 	left: 43%;
 	width: 15%;
 	z-index: 1;
-	-moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-        filter: FlipH;
-        -ms-filter: "FlipH";
+//-moz-transform: scaleX(-1);
+//    -o-transform: scaleX(-1);
+//    -webkit-transform: scaleX(-1);
+//    transform: scaleX(-1);
+//    filter: FlipH;
+//    -ms-filter: "FlipH";
+}
+
+.column {
+	width: 33.33%;
+	height:100%;
 }
 
 #titleColumn {
-	background-color:#f5f5f5; 
+	background-color:#e8e8e6; 
 	position:relative;
 	float:left;
-	width:33%;
-	height:100%;
 }
 
 #city {
 	background-color: #dc5c3b;
 	float:left;
-	height:100%;
-	width:34%;
 }
 
 #shop {
 	background-color:#46d954;
 	float:left;
-	height:100%;
-	width:33%;
 }
 
 #information {
-	background-color: pink;
+	background-color:#d8b139;
 	float:left;
-	height:100%;
-	width:33%;
 }
 #subscribe {
 	background-color: #629dfc;
 	float:left;
-	height:100%;
-	width:34%;
+	font-family: 'Roboto', sans-serif;
 }
 #faq {
 	background-color: purple;
 	float:left;
-	height:100%;
-	width:33%;
 }
 #footer {
 	clear:both;
@@ -167,8 +178,34 @@ button {
     height: 100%;
     position: relative;
     float: right;
- }
+}
 
+.growAnimation5{
+	animation-name: cityAnimation;
+	width: 0%;
+	    animation-duration: 3s;
+}
+.growAnimation2{
+	animation-name: cityAnimation;
+	width: 0%;
+	    animation-duration: 4s;
+}
+.growAnimation3{
+	animation-name: cityAnimation;
+	width: 0%;
+	    animation-duration: 2s;
+}
+.growAnimation4{
+	animation-name: cityAnimation;
+	width: 0%;
+	    animation-duration: 1s;
+	    animation-delay: 0s;
+}
+.growAnimation1 {
+	width:0%;
+	animation-name: cityAnimation;
+	    animation-duration: 5s;
+}
 
 .silhouette1 {
   background: #302c24;
@@ -1071,11 +1108,15 @@ button {
 }
 
 .s1 {
-  width: 15%;
+  width: 55%;
   height: 100%;
-  top: 0%;
+  top: -12%;
   left: 0%;
   position: absolute;
+  background:#e6ebef;
+  border: #302c24;
+border-style: solid;
+    border-width: 2%;
 }
 
 .s2 {
@@ -1223,4 +1264,9 @@ button {
     height: 600px;
     margin-top: -400px;
   }
+}
+
+@keyframes cityAnimation {
+    from {width: 0%;}
+    to {width: 100%;}
 }
