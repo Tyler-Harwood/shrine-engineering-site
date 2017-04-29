@@ -12,7 +12,10 @@ pre {
 }
 
 #titleImage {
-	z-index:1;
+}
+
+#controllerImage {
+	width: 100%;	
 }
 
 #title {
@@ -24,14 +27,20 @@ pre {
  #titleEmoji {
 	display: block;
 	position: absolute; 
-	top: 61%;
-	left: 42%;
+	top: 35%;
+	left: 43%;
 	width: 15%;
 	z-index: 1;
+	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
 
 #titleColumn {
-	background-color:white; 
+	background-color:#f5f5f5; 
 	position:relative;
 	float:left;
 	width:33%;
@@ -39,14 +48,14 @@ pre {
 }
 
 #city {
-	background-color: orange;
+	background-color: #dc5c3b;
 	float:left;
 	height:100%;
 	width:34%;
 }
 
 #shop {
-	background-color:#8ed65e;
+	background-color:#46d954;
 	float:left;
 	height:100%;
 	width:33%;

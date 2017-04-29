@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 2066 1832" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+<svg width="100%" height="100%" viewBox="0 0 2109 1835" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <g transform="matrix(1,0,0,1,-887.316,-136.382)">
         <g transform="matrix(2.58618,0,0,2.62332,732.596,2.00878)">
             <text x="266.479px" y="29.902px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">______</text>
@@ -27,6 +27,19 @@
             <text x="354.587px" y="429.27px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">/   \</text>
             <text x="313.744px" y="583.394px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">/     \</text>
             <text x="272.901px" y="737.517px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">/       \</text>
+        </g>
+        <g transform="matrix(-1.39156,0,0,1.51341,4324.32,167.466)">
+            <path d="M1572.57,894.304L1327.59,1026.77L1321,872L971,860L961,1183L1309,1186L1329.5,1071.79L1572.57,894.304Z" style="fill:white;stroke:black;stroke-width:12.38px;"/>
+        </g>
+        <g transform="matrix(0.77509,0,0,0.77509,1765.81,857.394)">
+            <text x="963.977px" y="933.581px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">W<tspan x="1087.4px 1166.39px 1201.71px 1250.39px " y="933.581px 933.581px 933.581px 933.581px ">e&apos;re</tspan></text>
+            <text x="963.977px" y="1041.83px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">curr<tspan x="1217.51px 1296.5px " y="1041.83px 1041.83px ">en</tspan>tly</text>
+            <text x="963.977px" y="1150.07px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">making</text>
+            <text x="981.702px" y="1287.95px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">|</text>
+            <text x="1143.66px" y="1287.95px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">|</text>
+            <text x="1298.42px" y="1287.95px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">|</text>
+            <text x="1456.53px" y="1287.95px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">|</text>
+            <text x="963.977px" y="1396.19px" style="font-family:'VeranaSans-Regular', 'Verana Sans', sans-serif;font-size:128.436px;">v  v  v  v</text>
         </g>
     </g>
 </svg>
