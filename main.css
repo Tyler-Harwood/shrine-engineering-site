@@ -89,6 +89,9 @@ width: 23%;
 #faq {
 	background-color: purple;
 	float:left;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 300%;
 }
 #footer {
 	clear:both;
@@ -1255,15 +1258,29 @@ border-style: solid;
   right: 0%;
 }
 
-@media screen and (max-device-width: 555px) {
-  .sky, .silhouette, .popup{
-    width: 100%;
-    font-size: 155%;
-  }
-  .popup{
-    height: 600px;
-    margin-top: -400px;
-  }
+@media screen and (max-device-width: 1200px) {
+	.column {
+		width:50%;
+	}
+}
+
+@media screen and (max-device-width: 800px) {
+	.column {
+		width:100%;
+	}
+	#titleImage {
+		margin:0px;
+	}
+	#title {
+		margin: 0px;
+		width: 100%;
+	}
+	.b1 {
+		width: 87%;
+	}
+	.l2b2 {
+		width: 80%;
+	}
 }
 
 @keyframes cityAnimation {

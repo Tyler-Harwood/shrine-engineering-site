@@ -8,15 +8,16 @@
 		<link rel="manifest" href="/manifest.json">
 		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="theme-color" content="#ffffff">
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>
 	<body>
 		<div id="main">
 			<div id="titleColumn" class="column">
-					<img id="controllerImage" src="ShrineEngineeringUSBController.gif" alt="ShrineEngineeringUSBController.png"/> 
+					<img id="controllerImage" src="images/ShrineEngineeringUSBController.gif" alt="images/ShrineEngineeringUSBController.png"/> 
 				<div id="title">
 					<!--<pre>shrine<br>engineering<br>/   \<br>/ 🐄  \<br>/       \</pre>-->
-					<img id="titleImage" src="shrineEngineeringTitle.svg" alt="Nice green circle"/> 
-					<img id="textBubbleImage" src="shrineEngineeringSpeechBubble.svg" alt="Nice green circle"/> 
+					<img id="titleImage" src="images/shrineEngineeringTitle.svg" alt="Nice green circle"/> 
+					<img id="textBubbleImage" src="images/shrineEngineeringSpeechBubble.svg" alt="Nice green circle"/> 
 					<!--<img id="titleEmoji" src="1f404.svg"/>-->
 				</div>
 			</div>
@@ -300,7 +301,7 @@
 							<div class="silhouette1 s3"></div>
 							<div class="silhouette1 s4"></div>
 							<div class="s1">
-								<img id="billboardImage1" src="shrineEngineeringArrow.svg" alt="Nice green circle"/> 
+								<img id="billboardImage1" src="images/shrineEngineeringArrow.svg" alt="Nice green circle"/> 
 							</div>
 						</div>
 					</div>
@@ -312,15 +313,24 @@
 			<div id="information" class="column">
 			</div>
 			<div id="subscribe" class="column">
-				<!-- Begin MailChimp Signup Form -->
 				<form action="//engineering.us15.list-manage.com/subscribe/post?u=1fb5a550f6b5eb31337be3105&amp;id=b01fe72603" method="post">  
 					<input type="text" placeholder="enter email" name="email" required>
 					<input type="text" placeholder="name (optional)" name="name">
+					<button
+					class="g-recaptcha"
+					data-sitekey="6LcPXh8UAAAAABKS_VkUl3uzBbkYlwOaSuMbnv9N"
+					data-callback="YourOnSubmitFn">
+					Submit
+					</button>
 				</form>
-			<!--End mc_embed_signup-->
 			</div>
 			<div id="faq" class="column">
-				
+				<div><b>What do you even do?</b></div>
+				<div>We are engineers that in beautiful design. We build whatever we want. We're currently working on making a cross-platform USB controller</div>
+				<div><b>What principles do you follow in your design?</b></div>
+				<div>We are engineers that believe in beautiful design</div>
+				<div><b>Where are you located?</b></div>
+				<div>The internet</div>
 			</div>
 		</div>
 		<div id="footer" >
@@ -333,7 +343,7 @@
 	<!--New images on load -->
 	<script>
 	    var images = ['1f404.svg', '1f31d.svg','1f31e.svg','1f404.svg','1f40b.svg','1f68c.svg','1f69b.svg','1f6b4.svg'];
-		$('<img id="titleEmoji" src=' + images[Math.floor(Math.random() * images.length)] + '>').appendTo('#title');
+		$('<img id="titleEmoji" src=images/' + images[Math.floor(Math.random() * images.length)] + '>').appendTo('#title');
 	</script>
 		
 </html>
