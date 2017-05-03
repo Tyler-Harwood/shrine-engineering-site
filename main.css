@@ -75,6 +75,10 @@ width: 23%;
 #shop {
 	background-color:#46d954;
 	float:left;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	overflow-y: scroll;
+	font-size: 120%;
 }
 
 #information {
@@ -86,12 +90,13 @@ width: 23%;
 	float:left;
 	font-family: 'Roboto', sans-serif;
 }
-#faq {
-	background-color: purple;
+#about {
+	background-color: #420877;
 	float:left;
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	font-size: 300%;
+	overflow-y: scroll;
+	font-size: 120%;
 }
 #footer {
 	clear:both;
@@ -1256,6 +1261,30 @@ border-style: solid;
   background: #302c24;
   position: absolute;
   right: 0%;
+}
+
+#about h2 {
+	padding: 15px 0 0 15px;
+	margin: 0;
+	font-size: 180%;
+}
+
+h1 {
+	padding: 15px 0 0 15px;
+	margin: 0;
+	font-size: 200%;
+}
+
+#about b {
+	font-size: 120%;
+}
+
+#about div {
+	padding: 5px 0 0 40px;
+}
+
+#about ul {
+	margin: 0;
 }
 
 @media screen and (max-device-width: 1200px) {
