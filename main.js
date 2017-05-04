@@ -3,6 +3,16 @@ var images = ['1f404.svg', '1f31d.svg','1f31e.svg','1f404.svg','1f40b.svg','1f68
 $('<img id="titleEmoji" src=images/' + images[Math.floor(Math.random() * images.length)] + '>').appendTo('#title');
 
 $(document).ready(function() {
+
+	for(var i=1; i<6; i++) {
+		var target = '.growAnimation'+i;
+		jQuery(target).viewportChecker({
+			classToAdd: 'animated',
+			offset: 10
+		});
+	}
+
+
 	$('.form_error').hide();
 	$('#submit').click(function(){
 		var name = $('#nameField').val();

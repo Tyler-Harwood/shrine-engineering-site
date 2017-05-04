@@ -188,33 +188,6 @@ button {
     float: right;
 }
 
-.growAnimation5{
-	animation-name: cityAnimation;
-	width: 0%;
-	    animation-duration: 3s;
-}
-.growAnimation2{
-	animation-name: cityAnimation;
-	width: 0%;
-	    animation-duration: 4s;
-}
-.growAnimation3{
-	animation-name: cityAnimation;
-	width: 0%;
-	    animation-duration: 2s;
-}
-.growAnimation4{
-	animation-name: cityAnimation;
-	width: 0%;
-	    animation-duration: 1s;
-	    animation-delay: 0s;
-}
-.growAnimation1 {
-	width:0%;
-	animation-name: cityAnimation;
-	    animation-duration: 5s;
-}
-
 .silhouette1 {
   background: #302c24;
   color: white;
@@ -1315,4 +1288,31 @@ h1 {
 @keyframes cityAnimation {
     from {width: 0%;}
     to {width: 100%;}
+}
+
+
+.growAnimation5{
+	width: 0%;
+	animation-duration: 3s;
+}
+.growAnimation2{
+	width: 0%;
+	animation-duration: 4s;
+}
+.growAnimation3{
+	width: 0%;
+	animation-duration: 2s;
+}
+.growAnimation4{
+	width: 0%;
+	animation-duration: 1s;
+}
+.growAnimation1 {
+	width:0%;
+	animation-duration: 5s;
+}
+
+.animated{
+	animation-name: cityAnimation;
+	width: 100%;
 }
