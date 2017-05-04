@@ -314,13 +314,14 @@
 			</div>
 			<div id="subscribe" class="column">
 				<form action="//engineering.us15.list-manage.com/subscribe/post?u=1fb5a550f6b5eb31337be3105&amp;id=b01fe72603" method="post">  
-					<input type="text" placeholder="enter email" name="email" required>
-					<input type="text" placeholder="name (optional)" name="name">
-					<button
+					<input id="emailField" type="text" placeholder="enter email" name="email" required>
+					<span class="form_error" id="invalid_email">You sure that's a valid email? The computer thinks it looks a little off...</span>
+					<input id="nameField" type="text" placeholder="name (optional)" name="name">
+					<button id="submit"
 					class="g-recaptcha"
 					data-sitekey="6LcPXh8UAAAAABKS_VkUl3uzBbkYlwOaSuMbnv9N"
 					data-callback="YourOnSubmitFn">
-					Submit
+					Sign me up, yo
 					</button>
 				</form>
 			</div>
@@ -337,10 +338,10 @@
 				<h2>What principles do we follow in our design?</h2>
 				<ul>
 					<b>Beautiful design:</b>
-					<li>Is an efficient solution. Don't add ten buttons to a UI when you only need one.</li>
-					<li>Does not use gimmicks that don’t add anything to the final product. I don't need my keyboard LEDs to change colors.</li>
+					<li>Is an elegant solution. Period.</li>
+					<li>Does not use cheap gimmicks that don’t add anything to the product. We'll never sell you a product for your desk that looks like it was made for a race car.</li>
 					<li>Is made from materials that fit their purpose. No “made from titanium” with no added benefit to the product.</li>
-					<li>Is made from materials that keep their appearance over the years or gain character with use (like wood or leather).</li>
+					<li>Is made from materials that keep their appearance over the time or gain character with use (like wood or leather).</li>
 					<li>Is made responsibly from recycled / renewable materials whenever practical.</li>
 					<li>Is easy to repair / maintain with basic skills.</li>
 					<li>Is able to be transported to its customers with a minimal footprint. When you're selling online, this is kind of a big deal.</li>
@@ -354,9 +355,5 @@
 	<link rel="stylesheet" typer="text/css" href="main.css"/>
 	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-	<!--New images on load -->
-	<script>
-	    var images = ['1f404.svg', '1f31d.svg','1f31e.svg','1f404.svg','1f40b.svg','1f68c.svg','1f69b.svg','1f6b4.svg'];
-		$('<img id="titleEmoji" src=images/' + images[Math.floor(Math.random() * images.length)] + '>').appendTo('#title');
-	</script>
+	<script type="text/javascript" src="main.js"></script>
 </html>
