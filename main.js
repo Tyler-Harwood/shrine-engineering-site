@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 
 	$('.form_error').hide();
-	$('#submit').click(function(){
+	$('#subscribeButton').click(function(){
 		var name = $('#nameField').val();
 		var email = $('#emailField').val();
 		if(email== ''){

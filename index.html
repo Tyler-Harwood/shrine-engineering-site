@@ -106,7 +106,7 @@
 					<div class="layer1">
 						<div class="b1">
 							<div class="silhouette1 b1p1">
-								<text class="clickable subscribe">-&gt; subscribe for updates &lt;- </text>
+<!--								<text class="clickable subscribe">-&gt; subscribe for updates &lt;- </text> -->
 							</div>
 							<div class="silhouette1 b1p2"></div>
 							<div class="silhouette1 b1p3"></div>
@@ -115,14 +115,14 @@
 						</div>
 						<div class="b2">
 							<div class="silhouette1 b2p1">
-								<text class="clickable contact">contact</text>
+<!--								<text class="clickable contact">contact</text> -->
 							</div>
 							<div class="silhouette1 b2p2"></div>
 							<div class="silhouette1 b2p3"></div>
 						</div>
 						<div class="b3">
 							<div class="silhouette1 b3p1">
-								<text>shrine engineering</text>
+<!--								<text>shrine engineering</text> -->
 							</div>
 							<div class="silhouette1 b3p2"></div>
 							<div class="silhouette1 b3p3"></div>
@@ -140,7 +140,7 @@
 						</div>
 						<div class="b6">
 							<div class="silhouette1 b6p1">
-								<text class="clickable about">about</text>
+<!--								<text class="clickable about">about</text> -->
 							</div>
 							<div class="silhouette1 b6p2"></div>
 						</div>
@@ -299,7 +299,6 @@
 						<div class="shrine">
 							<div class="silhouette1 s2"></div>
 							<div class="silhouette1 s3"></div>
-							<div class="silhouette1 s4"></div>
 							<div class="s1">
 								<img id="billboardImage1" src="images/shrineEngineeringArrow.svg" alt="Nice green circle"/> 
 							</div>
@@ -313,26 +312,39 @@
 			<div id="information" class="column">
 			</div>
 			<div id="subscribe" class="column">
-				<form action="//engineering.us15.list-manage.com/subscribe/post?u=1fb5a550f6b5eb31337be3105&amp;id=b01fe72603" method="post">  
-					<input id="emailField" type="text" placeholder="enter email" name="email" required>
-					<span class="form_error" id="invalid_email">You sure that's a valid email? The computer thinks it looks a little off...</span>
-					<input id="nameField" type="text" placeholder="name (optional)" name="name">
-					<button id="submit"
-					class="g-recaptcha"
-					data-sitekey="6LcPXh8UAAAAABKS_VkUl3uzBbkYlwOaSuMbnv9N"
-					data-callback="YourOnSubmitFn">
-					Sign me up, yo
-					</button>
-				</form>
+				<div id="outputForm">		
+					<h1 class="outputForm">OUTPUT</h1>
+					<h3 class="outputForm">(subscribe to our mailing list)</h3>
+					<h5 class="outputForm">pls subscribe c:</h5>
+					<h6 class="outputForm">pls c':</h6>
+					<form action="//engineering.us15.list-manage.com/subscribe/post?u=1fb5a550f6b5eb31337be3105&amp;id=b01fe72603" method="post">
+						<input id="nameField" type="text" placeholder="name (optional)" name="name">
+						<input id="emailField" type="text" placeholder="enter email" name="email" required>
+						<span class="form_error" id="invalid_email">You sure that's a valid email? The computer thinks it looks a little off...</span>
+						<button id="subscribeButton"
+							class="g-recaptcha"
+							data-sitekey="6LcPXh8UAAAAABKS_VkUl3uzBbkYlwOaSuMbnv9N"
+							data-callback="YourOnSubmitFn">
+							Sign me up, yo
+						</button>
+					</form>
+				</div>
+				<div id="inputForm">
+					<h1 class="inputForm">INPUT</h1>
+					<h3 class="inputForm">(contact us)</h3>
+					<h5 class="inputForm">seriously though, if you send us something we'll read it</h5>
+					<h6 class="inputForm">pinkey promise</h6>
+					<button id="contactButton" onclick="location.href='mailto:contact@shrine.engineering';">contact@shrine.engineering</button>
+				</div>
 			</div>
 			<div id="about" class="column">
 				<h1>- -About- -</h1>
 				<h2>Who are we?</h2>
-				<div>We're engineers that are really into designing and creating.</div>
+				<div>We're engineers that are really into making things that don't suck.</div>
 				<h2>What do we even do?</h2>
 				<div>We're currently making a cross-platform USB controller.</div>
 				<h2>When do we think it will be released?</h2>
-				<div>We don't know as of yet, but if you subscribe to our mailing list, we'll keep you posted.</div>
+				<div>We don't know as of yet, but if you subscribe to our <a href="#subscribe">mailing list</a>, we'll keep you posted.</div>
 				<h2>Where are we located?</h2>
 				<div>The Internet</div>
 				<h2>What principles do we follow in our design?</h2>
