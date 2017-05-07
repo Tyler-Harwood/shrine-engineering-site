@@ -19,11 +19,15 @@ $(document).ready(function() {
 		var email = $('#emailField').val();
 		if(email== ''){
 			$('#email').next().show();
-			$("#invalid_email").text("testing");
+			$("#invalid_email").text("sorry, but we can't subscribe you to the email list without an email :c");
+			$("#emailField").css('border-color', "red")
 			$('#invalid_email').show();
 			return false;
 		}
 		if(IsEmail(email)==false){
+			$('#email').next().show();
+			$("#invalid_email").text("You sure that's a valid email? The computer thinks it looks a little off...");
+			$("#emailField").css('border-color', "red")
 			$('#invalid_email').show();
 			return false;
 		}
