@@ -300,7 +300,9 @@
 							<div class="silhouette1 s2"></div>
 							<div class="silhouette1 s3"></div>
 							<div class="s1">
-								<img id="billboardImage1" src="images/shrineEngineeringArrow.svg" alt="Nice green circle"/> 
+								<a href="#subscribe">
+									<img id="billboardImage1" src="images/shrineEngineeringArrow.svg" alt="Nice green circle"/> 
+								</a>
 							</div>
 						</div>
 					</div>
@@ -313,33 +315,37 @@
 			</div>
 			<div id="subscribe" class="column">
 				<div id="outputForm">		
-					<h1 class="outputForm noSidePadding">OUTPUT</h1>
-					<h3 class="outputForm">(subscribe to our mailing list)</h3>
+					<h1 class="outputForm noSidePadding">- -Subscribe- -</h1>
+					<h3 class="outputForm">subscribe to our mailing list</h3>
 					<h5 class="outputForm">pls subscribe c:</h5>
 					<h6 class="outputForm">pls c':</h6>
 					<form action="//engineering.us15.list-manage.com/subscribe/post?u=1fb5a550f6b5eb31337be3105&amp;id=b01fe72603" method="post">
 						<input id="emailField" type="text" placeholder="email" name="email" required>
 						<br>
 						<span class="form_error" id="invalid_email"></span>
-						<button id="subscribeButton"
-							class="g-recaptcha"
-							data-sitekey="6LcPXh8UAAAAABKS_VkUl3uzBbkYlwOaSuMbnv9N"
-							data-callback="YourOnSubmitFn">
-							Sign me up, yo
-						</button>
+						<div>					
+							<div id="subscribePointer">inconspicuous<br>subscribe button --&gt</div>
+							<button 
+								id="subscribeButton"
+								class="g-recaptcha"
+								data-sitekey="6LcPXh8UAAAAABKS_VkUl3uzBbkYlwOaSuMbnv9N"
+								data-callback="YourOnSubmitFn">
+								Sign me up, yo
+							</button>
+						</div>
 					</form>
 					<img id="fireworks" src="images/fireworksThankYou.gif"/> 
 				</div>
 				<div id="inputForm">
-					<h1 class="inputForm noSidePadding">INPUT</h1>
-					<h3 class="inputForm">(contact us)</h3>
-					<h5 class="inputForm">seriously though, if you send us something we'll read it</h5>
+					<h1 class="inputForm noSidePadding">- -Contact- -</h1>
+					<h3 class="inputForm">contact us</h3>
+					<h5 class="inputForm">seriously though, if you send us something, we'll read it</h5>
 					<h6 class="inputForm">pinkey promise</h6>
 					<button id="contactButton" onclick="location.href='mailto:contact@shrine.engineering';">contact@shrine.engineering</button>
 				</div>
 			</div>
 			<div id="about" class="column">
-				<h1 id="sidePadding">- -About- -</h1>
+				<h1 class="outputForm noSidePadding">- -About- -</h1>
 				<h2>Who are we?</h2>
 				<div>We're engineers that are really into making things that don't suck.</div>
 				<h2>What do we even do?</h2>

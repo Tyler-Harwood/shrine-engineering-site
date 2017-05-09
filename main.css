@@ -96,7 +96,7 @@ border-style: solid;
 #about {
 	background-color: #420877;
 	float:left;
-	color: white;
+	color: #e6fdf1;
 	font-family: 'Roboto', sans-serif;
 	overflow-y: scroll;
 	font-size: 120%;
@@ -1292,8 +1292,6 @@ h1 {
 }
 
 #subscribeButton {
-	background: #2d3330;
-	color: #e6fdf1;
 	padding : 10px;
     margin  : 25px auto;
     display : block;
@@ -1301,10 +1299,10 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: medium;
 	border: 0px;
-}
-#contactButton {
 	color: #2d3330;
 	background: #e6fdf1;
+}
+#contactButton {
 	padding : 10px;
     margin  : 5px auto;
     display : block;
@@ -1312,16 +1310,18 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	font-size: medium;
 	border: 0px;
+	background: #2d3330;
+	color: #e6fdf1;
 }
 
 #inputForm {
 	width: 100%;
 	height: 50%;
-	background: #2d3330;
+	background: #e6fdf1;
 }
 
 .inputForm {
-	color: #e6fdf1;
+	color: #2d3330;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -1337,18 +1337,17 @@ h1 {
 
 
 .outputForm {
-	color: #2d3330;
 	text-align: center;
 	vertical-align: middle;
 }
 
 #outputForm{
     display: inline-block;
+	background: #2d3330;
+	color: #e6fdf1;
     text-align: center;
 	width: 100%;
 	height: 50%;
-	color: #2d3330;
-	background: #e6fdf1;
 }
 
 .growAnimation5{
@@ -1385,3 +1384,8 @@ h1 {
 #fireworks {
 }
 
+#subscribePointer {
+	float: left;
+	margin:0 0 0 3%;
+	position:absolute
+}
