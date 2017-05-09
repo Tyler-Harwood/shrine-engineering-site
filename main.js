@@ -14,6 +14,7 @@ $(document).ready(function() {
 
 
 	$('.form_error').hide();
+	$('#fireworks').hide();
 	$('#subscribeButton').click(function(){
 		var name = $('#nameField').val();
 		var email = $('#emailField').val();
@@ -32,12 +33,13 @@ $(document).ready(function() {
 			return false;
 		}
 		//ajax call php page
-		$.post("send.php", $("#contactform").serialize(),  function(response) {
-		$('#contactform').fadeOut('slow',function(){
-			$('#success').html(response);
+//		$.post("send.php", $("#contactform").serialize(),  function(response) {
+//		$('#contactform').fadeOut('slow',function(){
+//			$('#success').html(response);
 			$('#success').fadeIn('slow');
-		   });
-		 });
+			$('#fireworks').show();
+//		   });
+//		 });
 		 return false;
 		});
 	});
