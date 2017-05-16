@@ -35,6 +35,9 @@ pre {
     border-width: 9%;
 }
 
+#controllerInfoImage {
+    width: 100%;
+}
 #controllerImage {
     width: 100%;
     bottom: 0%;
