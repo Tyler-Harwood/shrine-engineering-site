@@ -16,10 +16,6 @@ button {
     cursor: pointer;
 }
 
-#footer {
-    font-family: 'Roboto', sans-serif;
-}
-
 #textBubbleImage {
     width: 23%;
     top: 70%;
@@ -130,6 +126,7 @@ h1 {
 }
 
 #footer {
+    font-family: 'Roboto', sans-serif;
     clear: both;
     padding-top: 20px;
     padding-bottom: 20px;
