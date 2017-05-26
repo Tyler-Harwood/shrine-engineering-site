@@ -16,6 +16,10 @@ button {
     cursor: pointer;
 }
 
+#footer {
+    font-family: 'Roboto', sans-serif;
+}
+
 #textBubbleImage {
     width: 23%;
     top: 70%;
